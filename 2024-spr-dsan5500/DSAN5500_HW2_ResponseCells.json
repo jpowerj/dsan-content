@@ -1,7 +1,7 @@
 {
   "2ozrlVObIDzT":
   {
-    "old": "# @title Q1.3.4-response\\nif 'naive_ht_real' in vars():\\n  naive_ht_real",
-    "new": "# @title Q1.3.4-response\\n# Please don't modify the contents of this cell, just run it to check that it\\n# produces the expected output!\\nimport io\\nfrom contextlib import redirect_stdout\\nif 'naive_ht_real' in vars():\\n  with redirect_stdout(io.StringIO()) as q1_3_4_response:\\n    print(naive_ht_real)\\nprint(q1_3_4_response.getvalue())"
+    "old": "# @title Q1.3.4-response\nif 'naive_ht_real' in vars():\n  naive_ht_real",
+    "new": "# @title Q1.3.4-response\n# Please don't modify the contents of this cell, just run it to check that it\n# produces the expected output!\nimport io\nfrom contextlib import redirect_stdout\nif 'naive_ht_real' in vars():\n  with redirect_stdout(io.StringIO()) as q1_3_4_response:\n    print(naive_ht_real)\nprint(q1_3_4_response.getvalue())"
   }
 }
