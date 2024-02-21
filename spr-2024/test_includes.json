@@ -1,0 +1,11 @@
+{
+  "DSAN5450": {
+    "HW1": ["public", "hidden"],
+    "HW2": ["public", "hidden"]
+  },
+  "DSAN5500": {
+    "HW0": ["public", "hidden"],
+    "HW1": ["public", "hidden"],
+    "HW2": ["public", "hidden"]
+  }
+}
