@@ -1,6 +1,6 @@
 **DSAN 5500 HW3 Corrections**: (Auto-updated if you use Colab)
 
-* [*Friday, April 5, 4am EST*]: There is an issue with **Part 5**, since Prefect doesn't support the `COUNT` syntax for RRule strings 😖; to fix this, please use the following as your `__main__` code (within the cell with `%%writefile` at the top):
+* [*Friday, April 5, 4am EST*]: There is an issue with **Part 5**, since Prefect doesn't support the `COUNT` syntax for RRule strings 😖 to fix this, please use the following as your `__main__` code (within the cell with `%%writefile` at the top):
     ```python
     if __name__ == "__main__":
       from dateutil.rrule import rrule, SECONDLY
