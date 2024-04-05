@@ -1,6 +1,6 @@
 **DSAN 5500 HW3 Corrections**: (Auto-updated if you use Colab)
 
-* [*Friday, April 5, 4am EST*]: There is an issue with Part 5, since Prefect doesn't seem to support the `COUNT` syntax for RRule strings; to fix this, please use the following as your `__main__` code (within the cell with `%%writefile` at the top):
+* [*Friday, April 5, 4am EST*]: There is an issue with **Part 5**, since Prefect doesn't support the `COUNT` syntax for RRule strings; to fix this, please use the following as your `__main__` code (within the cell with `%%writefile` at the top):
     ```python
     if __name__ == "__main__":
       from dateutil.rrule import rrule, SECONDLY
@@ -15,8 +15,8 @@
         rrule=str(rrule_obj)
       )
     ```
-    This tells Prefect to **start** running your flow after 10 seconds, then run every 10s until 60s have passed. You will still need to **manually stop** the code cell that **runs** the `.py` file, even after this schedule is complete! Prefect does **not** auto-terminate deployments once their schedules are finished.
-* [*Friday, April 5, 3am EST*]: If you restart your runtime after you've authenticated with `!prefect cloud login`, the code cell for this login will run forever. To fix this, you can replace the cell containing this `!prefect cloud login` command with the following code:
+    This tells Prefect to **start** running your flow after 10 seconds, then run every 10s until 60s have passed (*Please ignore the original instructions, which said to run every second for 10 seconds*). You will still need to **manually stop** the code cell that **runs** the `.py` file, even after this schedule is complete! Prefect does **not** auto-terminate deployments once their schedules are finished.
+* [*Friday, April 5, 3am EST*]: For Part 1: If you restart your runtime after you've authenticated with `!prefect cloud login`, the code cell for this login will run forever. To fix this, you can replace the cell containing this `!prefect cloud login` command with the following code:
     ```python
     workspace_result = !prefect cloud workspace ls
     if 'Currently not authenticated' in workspace_result[0]:
