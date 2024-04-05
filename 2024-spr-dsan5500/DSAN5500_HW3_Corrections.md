@@ -6,15 +6,16 @@
       from dateutil.rrule import rrule, SECONDLY
       import datetime
       cur_dt = datetime.datetime.now()
-      delta_10s = datetime.timedelta(seconds=10)
-      delta_60s = datetime.timedelta(seconds=60)
+      delta_10s, delta_60s = datetime.timedelta(seconds=10), datetime.timedelta(seconds=60)
       rrule_obj = rrule(freq=SECONDLY, interval=10, dtstart=cur_dt + delta_10s, until=cur_dt + delta_60s)
-      rrule_str = str(rrule_obj)
+      rrule_list_str = "\n".join([str(dt) for dt in list(rrule_obj)])
+      print(f'Runs scheduled for:\n{rrule_list_str}')
       scrape_quote.serve(
         name="quote-scraper",
-        rrule=rrule_str
+        rrule=str(rrule_obj)
       )
     ```
+    This will tell Prefect to **start** running your flow in 10 seconds, then run it every 10 seconds after that until 60 seconds have passed.
 * [*Friday, April 5, 3am EST*]: If you restart your runtime after you've authenticated with `!prefect cloud login`, the code cell for this login will run forever. To fix this, you can replace the cell containing this `!prefect cloud login` command with the following code:
     ```python
     workspace_result = !prefect cloud workspace ls
