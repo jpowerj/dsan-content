@@ -1,4 +1,4 @@
-**DSAN 5500 HW3 Corrections**: (Auto-updated if you use Colab)
+**DSAN 5500 HW3 Corrections**:
 
 * [*Friday, April 5, 4am EST*]: There is an issue with **Part 5**, since Prefect doesn't support the `COUNT` syntax for RRule strings 😖 Please use the following as your `__main__` code, instead of the code given in Part 5 (within the cell with `%%writefile` at the top):
     ```python
