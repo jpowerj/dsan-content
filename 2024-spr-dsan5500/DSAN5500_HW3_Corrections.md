@@ -16,7 +16,7 @@
       )
     ```
     This tells Prefect to **start** running your flow after 10 seconds, then run every 10s until 60s have passed (*Please ignore the original instructions, which said to run every second for 10 seconds*). You will still need to **manually stop** the code cell that **runs** the `.py` file, even after this schedule is complete! Prefect does **not** auto-terminate deployments once their schedules are finished.
-* [*Friday, April 5, 3am EST*]: For Part 1: If you restart your runtime after you've authenticated with `!prefect cloud login`, the code cell for this login will run forever. To fix this, you can replace the cell containing this `!prefect cloud login` command with the following code:
+* [*Friday, April 5, 3am EST*]: For **Part 1**: If you restart your runtime after you've authenticated with `!prefect cloud login`, the code cell for this login will run forever. To fix this, you can replace the cell containing this `!prefect cloud login` command with the following code:
     ```python
     workspace_result = !prefect cloud workspace ls
     if 'Currently not authenticated' in workspace_result[0]:
