@@ -1,6 +1,6 @@
 **DSAN 5500 HW3 Corrections**: (Auto-updated if you use Colab)
 
-* [*Friday, April 5, 3am EST*]: If you restart your runtime after you've authenticated with `!prefect cloud login`, the code cell for this login will run forever. To fix this, you can change the cell containing this `!prefect cloud login` command with the following code:
+* [*Friday, April 5, 3am EST*]: If you restart your runtime after you've authenticated with `!prefect cloud login`, the code cell for this login will run forever. To fix this, you can replace the cell containing this `!prefect cloud login` command with the following code:
     ```python
     workspace_result = !prefect cloud workspace ls
     if 'Currently not authenticated' in workspace_result[0]:
