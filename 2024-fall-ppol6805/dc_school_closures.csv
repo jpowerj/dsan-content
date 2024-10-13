@@ -1,58 +1,58 @@
-year,name,ward,address
-1997,Blow-Pierce ES,6,725 19th St NE
-1997,Keene ES,4,33 Riggs Rd NE
-1997,Richardson ES,7,201 53rd St NE
-1997,Woodridge ES,5,2959 Carlton Ave NE
-1997,Taft JHS,5,1800 Perry St NE
-1997,Douglass JHS,8,2620 Douglass Pl SE
-1997,Harrison ES,1,2100 13th St NW
-1997,Lewis ES,1,300 Bryant St NW
-1997,Petworth ES,4,801 Shepherd St NW
-2000,Paul Junior HS,4,5800 8th St NW
-2004,Evans MS,7,5600 East Capitol St NE
-2006,McGogney ES,8,3400 Wheeler Rd SE
-2006,Shadd ES,7,5601 East Capitol St SE
-2006,Van Ness ES,6,1150 5th St SE
-2006,Fletcher-Johnson EC,7,4650 Benning Rd SE
-2008,Wilkinson ES,8,2350 Pomeroy Rd SE
-2008,Benning ES,7,100 41st St NE
-2008,Clark ES,4,4501 Kansas Ave NW
-2008,Douglass ES,8,2600 Douglass Rd SE
-2008,Rudolph ES,4,5200 2nd St NW
-2008,Slowe ES,5,1404 Jackson St NE
-2008,Taft ES,5,1800 Perry St. NE
-2008,Webb ES,5,1375 Mt Olivet Rd NE
-2008,Young ES,5,24th and Benning Rd NE
-2008,JF Cook ES,5,30 P St NW
-2008,MM Washington HS,5,27 O St NW
-2008,Bruce-Monroe ES,1,3012 Georgia Ave NW
-2008,Gage-Eckington ES,1,2025 3rd St NW
-2008,PR Harris EC,8,4600 Livingston Rd SE
-2008,Shaw MS,2,925 Rhode Island Ave NW
-2008,Bowen ES,6,101 M St NW
-2008,Merritt MS,7,5002 Hayes St NE
-2008,Backus MS,5,5171 South Dakota Ave NE
-2008,Gibbs ES,6,500 19th St NE
-2008,Hine MS,6,335 8th St SE
-2008,Stevens ES,2,1050 21st St NW
-2008,Meyer ES,1,2501 11th St NW
-2008,Brookland ES,5,1150 Michigan Ave NE
-2009,Birney ES,8,2501 Martin Luther King Ave SE
-2009,Draper ES,8,908 Wahler Pl SE
-2010,Montgomery ES,6,421 P St NW
-2011,Shaed EC,5,301 Douglas St NE
-2012,Green ES,8,1500 Mississippi Ave SE
-2012,River Terrace ES,7,420 34th St NE
-2013,Hamilton MS,5,1401 Brentwood Pkwy NE
-2013,Davis ES,7,4430 H St. SE
-2013,Ferebee-Hope ES,8,3999 8th St SE
-2013,Kenilworth ES,7,1300 44th St NE
-2013,MacFarland MS,4,4400 Iowa Ave NW
-2013,Marshall ES,5,3100 Fort Lincoln Dr NE
-2013,MC Terrell ES,8,3301 Wheeler Rd SE
-2013,Ron Brown MS,7,4800 Meade St NE
-2013,Sharpe Health School EC,4,4300 13th St NW
-2013,Garnet-Patterson MS,6,2001 10th St NW
-2013,Spingarn HS,5,2500 Benning Rd NE
-2013,Winston EC,7,3100 Erie St SE
-2014,Mamie D Lee EC,5,100 Gallatin St NE
+school_id,year,name,ward,address
+1,1997,Blow-Pierce ES,6,725 19th St NE
+2,1997,Keene ES,4,33 Riggs Rd NE
+3,1997,Richardson ES,7,201 53rd St NE
+4,1997,Woodridge ES,5,2959 Carlton Ave NE
+5,1997,Taft JHS,5,1800 Perry St NE
+6,1997,Douglass JHS,8,2620 Douglass Pl SE
+7,1997,Harrison ES,1,2100 13th St NW
+8,1997,Lewis ES,1,300 Bryant St NW
+9,1997,Petworth ES,4,801 Shepherd St NW
+10,2000,Paul Junior HS,4,5800 8th St NW
+11,2004,Evans MS,7,5600 East Capitol St NE
+12,2006,McGogney ES,8,3400 Wheeler Rd SE
+13,2006,Shadd ES,7,5601 East Capitol St SE
+14,2006,Van Ness ES,6,1150 5th St SE
+15,2006,Fletcher-Johnson EC,7,4650 Benning Rd SE
+16,2008,Wilkinson ES,8,2350 Pomeroy Rd SE
+17,2008,Benning ES,7,100 41st St NE
+18,2008,Clark ES,4,4501 Kansas Ave NW
+19,2008,Douglass ES,8,2600 Douglass Rd SE
+20,2008,Rudolph ES,4,5200 2nd St NW
+21,2008,Slowe ES,5,1404 Jackson St NE
+22,2008,Taft ES,5,1800 Perry St. NE
+23,2008,Webb ES,5,1375 Mt Olivet Rd NE
+24,2008,Young ES,5,24th and Benning Rd NE
+25,2008,JF Cook ES,5,30 P St NW
+26,2008,MM Washington HS,5,27 O St NW
+27,2008,Bruce-Monroe ES,1,3012 Georgia Ave NW
+28,2008,Gage-Eckington ES,1,2025 3rd St NW
+29,2008,PR Harris EC,8,4600 Livingston Rd SE
+30,2008,Shaw MS,2,925 Rhode Island Ave NW
+31,2008,Bowen ES,6,101 M St NW
+32,2008,Merritt MS,7,5002 Hayes St NE
+33,2008,Backus MS,5,5171 South Dakota Ave NE
+34,2008,Gibbs ES,6,500 19th St NE
+35,2008,Hine MS,6,335 8th St SE
+36,2008,Stevens ES,2,1050 21st St NW
+37,2008,Meyer ES,1,2501 11th St NW
+38,2008,Brookland ES,5,1150 Michigan Ave NE
+39,2009,Birney ES,8,2501 Martin Luther King Ave SE
+40,2009,Draper ES,8,908 Wahler Pl SE
+41,2010,Montgomery ES,6,421 P St NW
+42,2011,Shaed EC,5,301 Douglas St NE
+43,2012,Green ES,8,1500 Mississippi Ave SE
+44,2012,River Terrace ES,7,420 34th St NE
+45,2013,Hamilton MS,5,1401 Brentwood Pkwy NE
+46,2013,Davis ES,7,4430 H St. SE
+47,2013,Ferebee-Hope ES,8,3999 8th St SE
+48,2013,Kenilworth ES,7,1300 44th St NE
+49,2013,MacFarland MS,4,4400 Iowa Ave NW
+50,2013,Marshall ES,5,3100 Fort Lincoln Dr NE
+51,2013,MC Terrell ES,8,3301 Wheeler Rd SE
+52,2013,Ron Brown MS,7,4800 Meade St NE
+53,2013,Sharpe Health School EC,4,4300 13th St NW
+54,2013,Garnet-Patterson MS,6,2001 10th St NW
+55,2013,Spingarn HS,5,2500 Benning Rd NE
+56,2013,Winston EC,7,3100 Erie St SE
+57,2014,Mamie D Lee EC,5,100 Gallatin St NE
