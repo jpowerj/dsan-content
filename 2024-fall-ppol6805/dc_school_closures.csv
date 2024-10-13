@@ -1,4 +1,4 @@
-school_id,year,name,ward,address
+school_id,year_closed,name,ward,address
 1,1997,Blow-Pierce ES,6,725 19th St NE
 2,1997,Keene ES,4,33 Riggs Rd NE
 3,1997,Richardson ES,7,201 53rd St NE
