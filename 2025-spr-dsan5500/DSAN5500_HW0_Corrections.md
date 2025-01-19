@@ -1,3 +1,3 @@
 **HW0 Corrections**:
 
-* None so far!
+None so far!
