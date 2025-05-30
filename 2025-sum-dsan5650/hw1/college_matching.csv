@@ -1,0 +1,24 @@
+student_id,school,school_type,admitted,enrolled,earnings_1996
+4,Weasel Institute of Technology,Private,True,True,60000
+4,College of Western Olingo,Public,True,False,60000
+3,Capybara A&M,Public,True,True,110000
+9,Otter State University,Public,True,False,60000
+2,Skunkington University in Saint Louis,Private,True,True,100000
+3,Mouse University in the City of New York,Private,False,False,110000
+1,Capybara A&M,Public,True,False,110000
+8,Capybara A&M,Public,True,False,90000
+7,Mouse University in the City of New York,Private,True,True,75000
+5,Otter State University,Public,True,False,30000
+5,Weasel Institute of Technology,Private,True,False,30000
+1,Mouse University in the City of New York,Private,False,False,110000
+4,Otter State University,Public,True,False,60000
+3,Skunkington University in Saint Louis,Private,True,False,110000
+5,College of Western Olingo,Public,True,True,30000
+1,Skunkington University in Saint Louis,Private,True,True,110000
+2,Capybara A&M,Public,True,False,100000
+8,Otter State University,Public,True,True,90000
+9,Capybara A&M,Public,True,True,60000
+9,Weasel Institute of Technology,Private,False,False,60000
+8,Weasel Institute of Technology,Private,False,False,90000
+6,Mouse University in the City of New York,Private,True,True,115000
+2,Mouse University in the City of New York,Private,False,False,100000
