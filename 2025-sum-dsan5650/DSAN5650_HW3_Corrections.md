@@ -1,3 +1,3 @@
-**DSAN5650 HW3A Corrections**
+**DSAN5650 HW3 Corrections**
 
 None so far!
