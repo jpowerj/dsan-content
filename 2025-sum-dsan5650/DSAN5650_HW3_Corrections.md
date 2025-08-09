@@ -19,5 +19,5 @@ q1_3_5_public_tests
 q1_4_1_public_tests = {
     'race_model defined': '✅ Passed!' if 'race_model' in globals() else "🔲 No variable named 'race_model' exists in Python memory",
 }
-```
 q1_4_1_public_tests
+```
