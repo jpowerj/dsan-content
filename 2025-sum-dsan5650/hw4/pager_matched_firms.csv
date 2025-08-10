@@ -1,0 +1,44 @@
+firm_id,region_str,industry,region
+0,Urban,Retail Trade,0
+1,Urban,Retail Trade,0
+2,Suburban,Retail Trade,1
+3,Urban,Retail Trade,0
+4,Urban,Retail Trade,0
+5,Suburban,Retail Trade,1
+6,Suburban,Other,1
+7,Suburban,Other,1
+8,Urban,Retail Trade,0
+9,Suburban,Retail Trade,1
+10,Suburban,Retail Trade,1
+11,Suburban,Retail Trade,1
+12,Urban,Manufacturing,0
+13,Suburban,Services,1
+14,Urban,Manufacturing,0
+15,Urban,Services,0
+16,Urban,Manufacturing,0
+17,Urban,Retail Trade,0
+18,Suburban,Services,1
+19,Urban,Manufacturing,0
+20,Suburban,Services,1
+21,Urban,Retail Trade,0
+22,Urban,Retail Trade,0
+23,Urban,Manufacturing,0
+24,Suburban,Retail Trade,1
+25,Suburban,Retail Trade,1
+26,Suburban,Manufacturing,1
+27,Urban,Retail Trade,0
+28,Suburban,Other,1
+29,Urban,Other,0
+30,Suburban,Retail Trade,1
+31,Suburban,Other,1
+32,Urban,Other,0
+33,Suburban,Retail Trade,1
+34,Urban,Manufacturing,0
+35,Suburban,Retail Trade,1
+36,Urban,Retail Trade,0
+37,Urban,Other,0
+38,Suburban,Retail Trade,1
+39,Urban,Retail Trade,0
+40,Suburban,Retail Trade,1
+41,Suburban,Retail Trade,1
+42,Urban,Manufacturing,0
