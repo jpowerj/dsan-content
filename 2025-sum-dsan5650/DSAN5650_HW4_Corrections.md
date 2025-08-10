@@ -1,6 +1,6 @@
 **DSAN5650 HW4 Corrections**
 
-The public tests for Q2.1.2 have a typo, where variable names were placed in quotes, so that they don't actually check for non-`None` values. The public test cell should instead be:
+The public tests for **Question 2.1.2** have a typo, where variable names were placed in quotes, so that they don't actually check for non-`None` values. The public test cell should instead be:
 
 ```py
 # @title Q2.1.2-public-tests
