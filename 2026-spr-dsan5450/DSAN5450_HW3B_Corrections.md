@@ -1,3 +1,3 @@
-**DSAN 5450 HW3 Updates:**
+**DSAN 5450 HW3B Updates:**
 
 None so far!
